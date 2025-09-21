@@ -32,7 +32,7 @@ const list = document.querySelector(".gallery");
 function makeGallery(arr) {
   return arr.map((image) => `
   <li class="list-image">
-  <img class="card-image" src="${image.url} alt="${image.alt}"
+  <img class="card-image" src="${image.url}" alt="${image.alt}"
   </li>
   `).join("");
 }
